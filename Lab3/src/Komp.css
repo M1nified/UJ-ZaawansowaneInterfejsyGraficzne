@@ -1,0 +1,23 @@
+table.vehicles {
+    margin: auto;
+    border: solid 1px;
+    border-collapse:collapse;
+}
+
+table.vehicles th, table.vehicles td{
+    padding: .5em;
+}
+
+table.vehicles thead th{
+    border-bottom: solid 1px;
+    cursor: pointer;
+}
+
+table.vehicles tbody td:nth-child(3){
+    font-style: italic;
+}
+
+table.vehicles tbody td:nth-child(4), table.vehicles tbody td:nth-child(5) {
+    font-family: monospace;
+    text-align: right;
+}
