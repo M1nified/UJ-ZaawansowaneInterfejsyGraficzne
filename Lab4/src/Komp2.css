@@ -1,0 +1,24 @@
+.edit-Event__input{
+    padding: 0.2em 5em;
+}
+
+.edit-Event__input label{
+    min-width: 100px;
+    display: inline-block;
+    text-align: end;
+    padding: 0.5em;
+    vertical-align: top;
+    font-style: italic;
+}
+
+.edit-Event__input input, .edit-Event__input textarea {
+    min-width: 200px;
+    padding: 0.5em;
+    display: inline-block;
+    width: calc( 100% - 100px - 11em );
+    border: solid 1px;
+}
+
+input[type="submit"]{
+    width: 100%;
+}
