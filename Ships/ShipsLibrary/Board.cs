@@ -14,6 +14,8 @@ namespace ShipsLibrary
         Field[,] fields;
         Ship[] ships = new Ship[10];
 
+        List<Field> hits = new List<Field>();
+
         public int X { get => x; set => x = value; }
         public int Y { get => y; set => y = value; }
 
@@ -57,11 +59,14 @@ namespace ShipsLibrary
         public bool Hit(int x, int y)
         {
             var ship = FindShip(x, y);
+            var field = fields[x, y];
+
+            hits.Add(field);
+
             if(ship == null)
             {
                 return false;
             }
-            var field = fields[x, y];
             ship.Hit(field);
             return true;
         }
