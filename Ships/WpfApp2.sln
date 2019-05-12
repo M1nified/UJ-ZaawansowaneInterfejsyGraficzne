@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipsLibrary", "ShipsLibrary\ShipsLibrary.csproj", "{4F587FD7-F239-423D-A00D-87FECD1520E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ships", "Ships\Ships.csproj", "{7E4A4E1E-A92C-4207-975E-B98D65F5FDF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F587FD7-F239-423D-A00D-87FECD1520E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F587FD7-F239-423D-A00D-87FECD1520E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F587FD7-F239-423D-A00D-87FECD1520E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F587FD7-F239-423D-A00D-87FECD1520E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E4A4E1E-A92C-4207-975E-B98D65F5FDF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E4A4E1E-A92C-4207-975E-B98D65F5FDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E4A4E1E-A92C-4207-975E-B98D65F5FDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E4A4E1E-A92C-4207-975E-B98D65F5FDF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EFE7A11-D3B7-4FCC-BEFB-C06212C63C5A}
+	EndGlobalSection
+EndGlobal
